@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap">
+    <title>C днем рожденья Mia miamore<3</title>
+</head>
+<body class="loading">
+<div id="loading-screen">
+    <p id="loading-message">Подождите, готовлю сюрприз... </p>
+</div>
+<header>
+    <h1>🎉 С днём рожденья сыпь моя  💖</h1>
+</header>
+<main>
+    <div id="birthday-card">
+        <p class="greeting"> 💖                       💖</p>
+        <p> Саша тебя сейчас 15 годиков Поздравляю тебя с этим </p>
+        <p> все ровно я старше хихихи:) </p>
+        <p>Хоть и этот год будет сложным для нас, читая данное поздравление хочу что бы ты знала что я всегда буду в тебя верить </p>
+        <p>Поздравляю тебя еще раз желаю для моей зайки нервов по больше,что бы не боялась делать первые шаги, ты у меня боевая женщина</p>
+        <p> Подарок конечно от души надеюсь понравится, жду обнимашку от тебя можно и чмок в щечку( по желанию)</p>
+        <p>💖  💖</p>
+
+        <button id="playButton">🎵 Музочку в студию 🎵</button>
+
+        <button id="revealButton" onclick="toggleBirthdayMessage()">Нажми на меня </button>
+        <div id="birthdayMessage" class="hidden"> Ещё раз с днем рожденья родная моя <3 </div>
+    </div>
+    <div id="confetti"></div>
+    <div id="bouncingHeart" class="animated bounce">&#10084;</div>
+    <div id="birthdayCake" class="animated rotate">&#127874;</div>
+    <div id="shootingStar">&#9733;</div>
+    <div id="glowMessage" class="animated glow">💖Лопни шарики зай 💖</div>
+    <div id="countdown"></div>
+
+
+    <div id="balloon-container">
+        <div class="balloon" onclick="popBalloon(this)">&#127880;</div>
+        <div class="balloon" onclick="popBalloon(this)">&#127880;</div>
+        <div class="balloon" onclick="popBalloon(this)">&#127880;</div>
+        <div class="balloon" onclick="popBalloon(this)">&#127880;</div>
+        <div class="balloon" onclick="popBalloon(this)">&#127880;</div>
+    </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
